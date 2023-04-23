@@ -9,7 +9,7 @@ library(plotly)
 
 
 # load data (source: https://www.kaggle.com/datasets/ulrikthygepedersen/meat-consumption)
-meat <- read.csv("pathway.../meat_consumption.csv",
+meat <- read.csv("Pathway/meat_consumption.csv",
                  header = T,
                  sep = ",",
                  stringsAsFactors = F)
